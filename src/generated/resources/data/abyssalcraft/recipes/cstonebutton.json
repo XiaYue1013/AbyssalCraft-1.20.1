@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "abyssalcraft:coralium_stone"
+    }
+  ],
+  "result": {
+    "item": "abyssalcraft:coralium_stone_button"
+  }
+}

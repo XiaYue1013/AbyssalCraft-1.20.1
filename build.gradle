@@ -1,0 +1,103 @@
+plugins {
+    id 'eclipse'
+    id 'idea'
+    id 'net.minecraftforge.gradle' version '[6.0,6.2)'
+}
+
+version = "${mc_version}-${mod_version}"
+group = mod_group
+base { archivesName = 'AbyssalCraft' }
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+
+minecraft {
+    mappings channel: 'official', version: mc_version
+    copyIdeResources = true
+
+    runs {
+        configureEach {
+            workingDirectory project.file('run')
+            property 'forge.logging.markers', 'REGISTRIES'
+            property 'forge.logging.console.level', 'info'
+            property 'forge.enabledGameTestNamespaces', mod_id
+            // remap the refmaps of mixin-using dependencies (TerraBlender) to dev mappings
+            property 'mixin.env.remapRefMap', 'true'
+            property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
+            mods { abyssalcraft { source sourceSets.main } }
+        }
+        client {}
+        // development smoke test of the client side (ClientSmokeTest): screenshots in run/smoketest/screenshots
+        clientSmokeTest {
+            parent runs.client
+            workingDirectory project.file('run/smoketest')
+            property 'abyssalcraft.smoketest', 'true'
+        }
+        server { args '--nogui' }
+        // own directory, and a fresh world for every run (see the task configuration below)
+        gameTestServer { workingDirectory project.file('run/gametest') }
+        data {
+            args '--mod', mod_id, '--all',
+                 '--output', file('src/generated/resources/'),
+                 '--existing', file('src/main/resources/')
+        }
+    }
+}
+
+// GameTests must not see blocks or gateways left behind by an earlier run
+tasks.matching { it.name == 'runGameTestServer' }.configureEach {
+    doFirst { delete file('run/gametest/world') }
+}
+
+// Generated data (datagen) and locally imported upstream assets (ARR, git-ignored; see LICENSE_AUDIT.md)
+sourceSets.main.resources {
+    srcDir 'src/generated/resources'
+    srcDir 'src/restricted/resources'
+    exclude '.cache'
+}
+
+repositories {
+    maven { name = 'Jared'; url = 'https://maven.blamejared.com/' }
+    maven { name = 'Forge'; url = 'https://maven.minecraftforge.net/' }
+}
+
+dependencies {
+    minecraft "net.minecraftforge:forge:${mc_version}-${forge_version}"
+
+    compileOnly fg.deobf("mezz.jei:jei-${mc_version}-common-api:${jei_version}")
+    compileOnly fg.deobf("mezz.jei:jei-${mc_version}-forge-api:${jei_version}")
+    runtimeOnly fg.deobf("mezz.jei:jei-${mc_version}-forge:${jei_version}")
+
+    implementation fg.deobf("com.github.glitchfiend:TerraBlender-forge:${terrablender_version}")
+}
+
+tasks.named('processResources', ProcessResources).configure {
+    def replaceProperties = [mc_version: mc_version, forge_version: forge_version, mod_id: mod_id,
+                             mod_name: mod_name, mod_version: mod_version]
+    inputs.properties replaceProperties
+    filesMatching(['META-INF/mods.toml', 'pack.mcmeta']) {
+        expand replaceProperties + [project: project]
+    }
+}
+
+tasks.named('jar', Jar).configure {
+    manifest {
+        attributes([
+            'Specification-Title'     : mod_id,
+            'Specification-Vendor'    : 'Shinoow',
+            'Specification-Version'   : '1',
+            'Implementation-Title'    : project.name,
+            'Implementation-Version'  : project.jar.archiveVersion,
+            'Implementation-Vendor'   : 'Shinoow (original), 1.20.1 port contributors',
+        ])
+    }
+    from('LICENSE.md') { into 'META-INF' }
+    finalizedBy 'reobfJar'
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}
+
+tasks.named('compileJava', JavaCompile).configure {
+    options.compilerArgs << '-Xmaxerrs' << '100000'
+}

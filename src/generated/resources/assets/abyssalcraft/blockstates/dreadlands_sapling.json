@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "stage=0": {
+      "model": "abyssalcraft:block/dreadlands_sapling"
+    },
+    "stage=1": {
+      "model": "abyssalcraft:block/dreadlands_sapling"
+    }
+  }
+}

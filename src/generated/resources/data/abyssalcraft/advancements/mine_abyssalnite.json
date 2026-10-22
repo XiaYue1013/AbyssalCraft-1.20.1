@@ -1,0 +1,38 @@
+{
+  "parent": "abyssalcraft:root",
+  "criteria": {
+    "abyssalnite_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "abyssalcraft:abyssalnite_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.abyssalcraft.mineaby.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "abyssalcraft:abyssalnite_ore"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.abyssalcraft.mineaby.title"
+    }
+  },
+  "requirements": [
+    [
+      "abyssalnite_ore"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

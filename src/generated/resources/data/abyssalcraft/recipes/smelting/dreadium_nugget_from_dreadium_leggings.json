@@ -1,0 +1,23 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "abyssalcraft:config",
+          "option": "smeltingRecipes"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:smelting",
+        "category": "misc",
+        "cookingtime": 200,
+        "experience": 1.0,
+        "ingredient": {
+          "item": "abyssalcraft:dreadium_leggings"
+        },
+        "result": "abyssalcraft:dreadium_nugget"
+      }
+    }
+  ]
+}

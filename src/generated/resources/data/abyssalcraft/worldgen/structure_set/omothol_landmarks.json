@@ -1,0 +1,22 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1873625310,
+    "separation": 9,
+    "spacing": 13
+  },
+  "structures": [
+    {
+      "structure": "abyssalcraft:omothol_temple",
+      "weight": 3
+    },
+    {
+      "structure": "abyssalcraft:omothol_tower",
+      "weight": 3
+    },
+    {
+      "structure": "abyssalcraft:omothol_storage",
+      "weight": 2
+    }
+  ]
+}

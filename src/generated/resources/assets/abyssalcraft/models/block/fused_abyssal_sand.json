@@ -1,0 +1,10 @@
+{
+  "parent": "minecraft:block/grass_block",
+  "textures": {
+    "bottom": "abyssalcraft:block/abyssalsand",
+    "overlay": "abyssalcraft:block/fusedabyssalsand_side",
+    "particle": "abyssalcraft:block/abyssalsand",
+    "side": "abyssalcraft:block/fusedabyssalsand_side",
+    "top": "abyssalcraft:block/fusedabyssalsand"
+  }
+}

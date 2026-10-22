@@ -1,0 +1,12 @@
+{
+  "type": "abyssalcraft:config_spawns",
+  "biomes": "#abyssalcraft:shub_offspring_spawns",
+  "option": "always",
+  "spawn": {
+    "type": "abyssalcraft:shub_offspring",
+    "maxCount": 3,
+    "minCount": 1,
+    "weight": 1
+  },
+  "weight_option": "darkOffspringSpawnWeight"
+}

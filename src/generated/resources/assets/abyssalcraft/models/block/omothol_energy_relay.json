@@ -1,0 +1,7 @@
+{
+  "parent": "abyssalcraft:block/energyrelay",
+  "textures": {
+    "0": "abyssalcraft:block/os",
+    "particle": "abyssalcraft:block/os"
+  }
+}

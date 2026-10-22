@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "abyssalcraft:ethaxium_brick"
+    },
+    "$": {
+      "item": "abyssalcraft:liquid_antimatter_bucket"
+    },
+    "%": {
+      "item": "minecraft:obsidian"
+    },
+    "&": {
+      "item": "abyssalcraft:ethaxium_block"
+    }
+  },
+  "pattern": [
+    "###",
+    "#%#",
+    "&$&"
+  ],
+  "result": {
+    "item": "abyssalcraft:materializer"
+  },
+  "show_notification": true
+}

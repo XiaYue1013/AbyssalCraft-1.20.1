@@ -1,0 +1,6 @@
+{
+  "type": "abyssalcraft:abyssal_stronghold",
+  "biomes": "#abyssalcraft:has_structure/abyssal_stronghold",
+  "spawn_overrides": {},
+  "step": "underground_structures"
+}

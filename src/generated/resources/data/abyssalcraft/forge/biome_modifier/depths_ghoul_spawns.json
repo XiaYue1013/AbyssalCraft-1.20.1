@@ -1,0 +1,11 @@
+{
+  "type": "abyssalcraft:config_spawns",
+  "biomes": "#abyssalcraft:coralium_mob_spawns",
+  "option": "depthsGhoulBiomeTagSpawning",
+  "spawn": {
+    "type": "abyssalcraft:depths_ghoul",
+    "maxCount": 3,
+    "minCount": 1,
+    "weight": 10
+  }
+}

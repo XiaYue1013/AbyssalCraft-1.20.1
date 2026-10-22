@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "abyssalcraft:block/abydrsb",
+    "side": "abyssalcraft:block/abydrsb",
+    "top": "abyssalcraft:block/abydrsb"
+  }
+}

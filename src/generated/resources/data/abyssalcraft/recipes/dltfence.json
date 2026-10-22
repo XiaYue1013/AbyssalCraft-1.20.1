@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "abyssalcraft:darklands_oak_planks"
+    },
+    "%": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "pattern": [
+    "#%#",
+    "#%#"
+  ],
+  "result": {
+    "count": 3,
+    "item": "abyssalcraft:darklands_oak_fence"
+  },
+  "show_notification": true
+}

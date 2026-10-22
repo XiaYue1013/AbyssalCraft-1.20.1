@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/door_bottom_right_open",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "bottom": "abyssalcraft:block/door_dlt_lower",
+    "top": "abyssalcraft:block/door_dlt_upper"
+  }
+}

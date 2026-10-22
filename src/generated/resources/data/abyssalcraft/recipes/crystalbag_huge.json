@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "abyssalcraft:skin_of_omothol"
+    },
+    "%": {
+      "item": "abyssalcraft:large_crystal_bag"
+    }
+  },
+  "pattern": [
+    "###",
+    "#%#",
+    "###"
+  ],
+  "result": {
+    "item": "abyssalcraft:huge_crystal_bag"
+  },
+  "show_notification": true
+}

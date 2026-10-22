@@ -1,0 +1,155 @@
+{
+  "parent": "abyssalcraft:mine_abyssalnite",
+  "criteria": {
+    "coralium_gem": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "abyssalcraft:coralium_gem"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "coralium_gem_cluster_2": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "abyssalcraft:coralium_gem_cluster_2"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "coralium_gem_cluster_3": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "abyssalcraft:coralium_gem_cluster_3"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "coralium_gem_cluster_4": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "abyssalcraft:coralium_gem_cluster_4"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "coralium_gem_cluster_5": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "abyssalcraft:coralium_gem_cluster_5"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "coralium_gem_cluster_6": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "abyssalcraft:coralium_gem_cluster_6"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "coralium_gem_cluster_7": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "abyssalcraft:coralium_gem_cluster_7"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "coralium_gem_cluster_8": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "abyssalcraft:coralium_gem_cluster_8"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "coralium_gem_cluster_9": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "abyssalcraft:coralium_gem_cluster_9"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "coralium_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "abyssalcraft:coralium_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.abyssalcraft.minecorgem.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "abyssalcraft:coralium_gem"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.abyssalcraft.minecorgem.title"
+    }
+  },
+  "requirements": [
+    [
+      "coralium_gem",
+      "coralium_ore",
+      "coralium_gem_cluster_2",
+      "coralium_gem_cluster_3",
+      "coralium_gem_cluster_4",
+      "coralium_gem_cluster_5",
+      "coralium_gem_cluster_6",
+      "coralium_gem_cluster_7",
+      "coralium_gem_cluster_8",
+      "coralium_gem_cluster_9"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

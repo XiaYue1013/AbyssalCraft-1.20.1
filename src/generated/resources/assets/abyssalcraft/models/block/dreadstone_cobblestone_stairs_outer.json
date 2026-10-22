@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "abyssalcraft:block/dreadstonecobblestone",
+    "side": "abyssalcraft:block/dreadstonecobblestone",
+    "top": "abyssalcraft:block/dreadstonecobblestone"
+  }
+}

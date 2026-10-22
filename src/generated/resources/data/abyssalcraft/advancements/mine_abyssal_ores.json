@@ -1,0 +1,103 @@
+{
+  "parent": "abyssalcraft:mine_abyssal_coralium",
+  "criteria": {
+    "abyssal_copper_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "abyssalcraft:abyssal_copper_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "abyssal_diamond_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "abyssalcraft:abyssal_diamond_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "abyssal_gold_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "abyssalcraft:abyssal_gold_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "abyssal_iron_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "abyssalcraft:abyssal_iron_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "abyssal_nitre_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "abyssalcraft:abyssal_nitre_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "abyssal_tin_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "abyssalcraft:abyssal_tin_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.abyssalcraft.mineabyores.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "abyssalcraft:abyssal_diamond_ore"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.abyssalcraft.mineabyores.title"
+    }
+  },
+  "requirements": [
+    [
+      "abyssal_diamond_ore",
+      "abyssal_gold_ore",
+      "abyssal_iron_ore",
+      "abyssal_copper_ore",
+      "abyssal_tin_ore",
+      "abyssal_nitre_ore"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

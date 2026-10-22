@@ -1,0 +1,7 @@
+{
+  "type": "abyssalcraft:shoggoth_lair",
+  "biomes": "#abyssalcraft:has_structure/omothol",
+  "ignore_config": true,
+  "spawn_overrides": {},
+  "step": "surface_structures"
+}

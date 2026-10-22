@@ -1,0 +1,10 @@
+{
+  "parent": "minecraft:block/grass_block",
+  "textures": {
+    "bottom": "abyssalcraft:block/dreadlandsdirt",
+    "overlay": "abyssalcraft:block/drgsides",
+    "particle": "abyssalcraft:block/dreadlandsdirt",
+    "side": "abyssalcraft:block/drgsides",
+    "top": "abyssalcraft:block/drgtop"
+  }
+}

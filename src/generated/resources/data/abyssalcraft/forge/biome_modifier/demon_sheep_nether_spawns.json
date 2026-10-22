@@ -1,0 +1,12 @@
+{
+  "type": "abyssalcraft:config_spawns",
+  "biomes": "#minecraft:is_nether",
+  "option": "always",
+  "spawn": {
+    "type": "abyssalcraft:demon_sheep",
+    "maxCount": 3,
+    "minCount": 1,
+    "weight": 15
+  },
+  "weight_option": "demonAnimalSpawnWeight"
+}

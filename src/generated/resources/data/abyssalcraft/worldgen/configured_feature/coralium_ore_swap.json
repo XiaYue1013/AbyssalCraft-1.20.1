@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:replace_single_block",
+  "config": {
+    "targets": [
+      {
+        "state": {
+          "Name": "abyssalcraft:coralium_ore"
+        },
+        "target": {
+          "block": "minecraft:iron_ore",
+          "predicate_type": "minecraft:block_match"
+        }
+      },
+      {
+        "state": {
+          "Name": "abyssalcraft:coralium_ore"
+        },
+        "target": {
+          "block": "minecraft:coal_ore",
+          "predicate_type": "minecraft:block_match"
+        }
+      }
+    ]
+  }
+}

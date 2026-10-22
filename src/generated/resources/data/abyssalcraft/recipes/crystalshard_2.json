@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "abyssalcraft:sulfur_crystal"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "abyssalcraft:sulfur_crystal_shard"
+  }
+}

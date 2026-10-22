@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "abyssalcraft:block/materializer_front",
+    "side": "abyssalcraft:block/materializer_side",
+    "top": "abyssalcraft:block/materializer_top"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "abyssalcraft:refined_coralium_ingot"
+    },
+    "%": {
+      "item": "abyssalcraft:coralium_pearl"
+    }
+  },
+  "pattern": [
+    "#%#",
+    "#%#",
+    "#%#"
+  ],
+  "result": {
+    "item": "abyssalcraft:coralium_plate"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "abyssalcraft:fixed",
+    "chunk_x": 0,
+    "chunk_z": 0,
+    "salt": 1873625312
+  },
+  "structures": [
+    {
+      "structure": "abyssalcraft:jzahar_temple",
+      "weight": 1
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "type": "abyssalcraft:config_spawns",
+  "biomes": "abyssalcraft:abyssal_wastelands",
+  "option": "spectralDragons",
+  "spawn": {
+    "type": "abyssalcraft:spectral_dragon",
+    "maxCount": 1,
+    "minCount": 1,
+    "weight": 1
+  }
+}

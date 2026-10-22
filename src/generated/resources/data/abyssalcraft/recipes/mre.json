@@ -1,0 +1,34 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "abyssalcraft:config",
+          "option": "foodstuffs"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "category": "misc",
+        "ingredients": [
+          {
+            "item": "abyssalcraft:iron_plate"
+          },
+          {
+            "item": "minecraft:carrot"
+          },
+          {
+            "item": "minecraft:potato"
+          },
+          {
+            "item": "minecraft:cooked_beef"
+          }
+        ],
+        "result": {
+          "item": "abyssalcraft:mre"
+        }
+      }
+    }
+  ]
+}

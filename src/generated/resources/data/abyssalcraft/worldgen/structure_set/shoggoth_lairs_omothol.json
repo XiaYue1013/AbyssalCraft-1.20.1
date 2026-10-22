@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1426375312,
+    "separation": 6,
+    "spacing": 10
+  },
+  "structures": [
+    {
+      "structure": "abyssalcraft:shoggoth_lair_omothol",
+      "weight": 1
+    }
+  ]
+}

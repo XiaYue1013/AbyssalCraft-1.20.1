@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "abyssalcraft:abyssalnite_ingot"
+    },
+    "%": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "pattern": [
+    "##",
+    " %",
+    " %"
+  ],
+  "result": {
+    "item": "abyssalcraft:abyssalnite_hoe"
+  },
+  "show_notification": true
+}

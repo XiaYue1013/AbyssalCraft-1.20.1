@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "abyssalcraft:block/cthulhustatue",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "abyssalcraft:block/cthulhustatue"
+    },
+    "facing=south": {
+      "model": "abyssalcraft:block/cthulhustatue",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "abyssalcraft:block/cthulhustatue",
+      "y": 270
+    }
+  }
+}

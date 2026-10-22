@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "abyssalcraft:skin_of_the_dreadlands"
+    },
+    "%": {
+      "item": "abyssalcraft:abyssal_wasteland_necronomicon"
+    }
+  },
+  "pattern": [
+    "##",
+    "#%"
+  ],
+  "result": {
+    "item": "abyssalcraft:dreadlands_necronomicon"
+  },
+  "show_notification": true
+}

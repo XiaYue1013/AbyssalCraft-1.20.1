@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "abyssalcraft:abyssalnite_cobblestone"
+    }
+  },
+  "pattern": [
+    "AAA"
+  ],
+  "result": {
+    "count": 6,
+    "item": "abyssalcraft:abyssalnite_cobblestone_slab"
+  },
+  "show_notification": true
+}

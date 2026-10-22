@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "abyssalcraft:dreadlands_planks"
+    }
+  },
+  "pattern": [
+    "## ",
+    "## ",
+    "## "
+  ],
+  "result": {
+    "item": "abyssalcraft:dreadlands_door"
+  },
+  "show_notification": true
+}

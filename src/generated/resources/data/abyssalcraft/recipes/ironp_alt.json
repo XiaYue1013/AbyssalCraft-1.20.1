@@ -1,0 +1,28 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "abyssalcraft:config",
+          "option": "foodstuffs"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "category": "misc",
+        "ingredients": [
+          {
+            "item": "abyssalcraft:dirty_plate"
+          },
+          {
+            "item": "abyssalcraft:washcloth"
+          }
+        ],
+        "result": {
+          "item": "abyssalcraft:iron_plate"
+        }
+      }
+    }
+  ]
+}

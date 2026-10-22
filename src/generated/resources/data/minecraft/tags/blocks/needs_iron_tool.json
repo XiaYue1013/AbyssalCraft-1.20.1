@@ -1,0 +1,28 @@
+{
+  "values": [
+    "abyssalcraft:abyssal_stone",
+    "abyssalcraft:abyssal_cobblestone",
+    "abyssalcraft:abyssal_stone_bricks",
+    "abyssalcraft:chiseled_abyssal_stone_bricks",
+    "abyssalcraft:cracked_abyssal_stone_bricks",
+    "abyssalcraft:abyssal_stone_brick_slab",
+    "abyssalcraft:abyssal_cobblestone_slab",
+    "abyssalcraft:abyssal_stone_brick_stairs",
+    "abyssalcraft:abyssal_cobblestone_stairs",
+    "abyssalcraft:abyssal_cobblestone_wall",
+    "abyssalcraft:abyssal_stone_brick_fence",
+    "abyssalcraft:abyssal_stone_button",
+    "abyssalcraft:abyssal_stone_pressure_plate",
+    "abyssalcraft:solid_lava",
+    "abyssalcraft:coralium_ore",
+    "abyssalcraft:abyssalnite_ore",
+    "abyssalcraft:nitre_ore",
+    "abyssalcraft:abyssal_iron_ore",
+    "abyssalcraft:abyssal_gold_ore",
+    "abyssalcraft:abyssal_diamond_ore",
+    "abyssalcraft:abyssal_nitre_ore",
+    "abyssalcraft:abyssal_tin_ore",
+    "abyssalcraft:abyssal_copper_ore",
+    "abyssalcraft:abyssalnite_block"
+  ]
+}

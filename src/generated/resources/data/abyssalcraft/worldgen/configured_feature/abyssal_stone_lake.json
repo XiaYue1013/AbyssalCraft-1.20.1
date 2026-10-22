@@ -1,0 +1,9 @@
+{
+  "type": "abyssalcraft:lake",
+  "config": {
+    "coralium_rim": true,
+    "fill": {
+      "Name": "abyssalcraft:abyssal_stone"
+    }
+  }
+}

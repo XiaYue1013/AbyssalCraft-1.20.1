@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "abyssalcraft:abyssal_stone_bricks"
+    }
+  },
+  "pattern": [
+    "AAA"
+  ],
+  "result": {
+    "count": 6,
+    "item": "abyssalcraft:abyssal_stone_brick_slab"
+  },
+  "show_notification": true
+}

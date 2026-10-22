@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "abyssalcraft:shoggoth_flesh_overworld"
+    },
+    {
+      "item": "abyssalcraft:elder_engraving"
+    },
+    {
+      "item": "abyssalcraft:shoggoth_flesh_abyssal_wasteland"
+    },
+    {
+      "item": "abyssalcraft:shoggoth_flesh_dreadlands"
+    },
+    {
+      "item": "abyssalcraft:shoggoth_flesh_omothol"
+    },
+    {
+      "item": "abyssalcraft:shoggoth_flesh_dark_realm"
+    }
+  ],
+  "result": {
+    "item": "abyssalcraft:azathoth_engraving"
+  }
+}

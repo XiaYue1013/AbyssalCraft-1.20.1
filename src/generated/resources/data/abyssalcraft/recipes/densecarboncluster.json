@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "abyssalcraft:carbon_cluster"
+    },
+    "%": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  "pattern": [
+    "###",
+    "#%#",
+    "###"
+  ],
+  "result": {
+    "item": "abyssalcraft:dense_carbon_cluster"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,78 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "abyssalcraft:block/statetransformer",
+        "y": 180
+      },
+      "when": {
+        "facing": "north"
+      }
+    },
+    {
+      "apply": {
+        "model": "abyssalcraft:block/stonetablet",
+        "y": 180
+      },
+      "when": {
+        "facing": "north",
+        "tablet": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "abyssalcraft:block/statetransformer",
+        "y": 270
+      },
+      "when": {
+        "facing": "east"
+      }
+    },
+    {
+      "apply": {
+        "model": "abyssalcraft:block/stonetablet",
+        "y": 270
+      },
+      "when": {
+        "facing": "east",
+        "tablet": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "abyssalcraft:block/statetransformer"
+      },
+      "when": {
+        "facing": "south"
+      }
+    },
+    {
+      "apply": {
+        "model": "abyssalcraft:block/stonetablet"
+      },
+      "when": {
+        "facing": "south",
+        "tablet": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "abyssalcraft:block/statetransformer",
+        "y": 90
+      },
+      "when": {
+        "facing": "west"
+      }
+    },
+    {
+      "apply": {
+        "model": "abyssalcraft:block/stonetablet",
+        "y": 90
+      },
+      "when": {
+        "facing": "west",
+        "tablet": "true"
+      }
+    }
+  ]
+}

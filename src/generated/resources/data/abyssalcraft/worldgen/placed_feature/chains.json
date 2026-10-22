@@ -1,0 +1,19 @@
+{
+  "feature": "abyssalcraft:chains",
+  "placement": [
+    {
+      "type": "abyssalcraft:config",
+      "option": "abyssalWastelandPillars"
+    },
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 100
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

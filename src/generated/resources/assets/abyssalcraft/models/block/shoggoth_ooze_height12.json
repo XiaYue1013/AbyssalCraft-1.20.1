@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/snow_height12",
+  "textures": {
+    "particle": "abyssalcraft:block/shoggothooze",
+    "texture": "abyssalcraft:block/shoggothooze"
+  }
+}

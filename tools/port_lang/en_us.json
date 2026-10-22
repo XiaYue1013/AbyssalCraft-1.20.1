@@ -1,0 +1,17 @@
+{
+  "message.abyssalcraft.gateway.no_dimension": "This gateway leads to %s, which doesn't exist on this server",
+  "block.abyssalcraft.mimic_fire": "Fire",
+  "entity.abyssalcraft.acid_projectile": "Shoggoth Acid",
+  "entity.abyssalcraft.dread_slug": "Dread Slug",
+  "entity.abyssalcraft.dreaded_charge": "Dreaded Charge",
+  "tooltip.cage.captured": "Captured entity: %s",
+  "tooltip.cage.capture": "Press %s or use on a mob to capture it",
+  "entity.abyssalcraft.coralium_arrow": "Coralium Arrow",
+  "container.abyssalcraft.spellbook": "Spellbook",
+  "jei.abyssalcraft.fuel.transmutator": "Transmutator Fuel",
+  "jei.abyssalcraft.fuel.crystallizer": "Crystallizer Fuel",
+  "jei.abyssalcraft.fuel.burn_time": "Burn time: %s ticks",
+  "jei.abyssalcraft.ritual": "Necronomicon Rituals",
+  "jei.abyssalcraft.rending": "Staff of Rending",
+  "jei.abyssalcraft.upgrade": "Upgrade Kits"
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "tag": "forge:rods/wooden"
+    },
+    "%": {
+      "tag": "forge:chests/wooden"
+    },
+    "&": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "pattern": [
+    "#&#",
+    "&%&",
+    "#&#"
+  ],
+  "result": {
+    "count": 2,
+    "item": "abyssalcraft:wooden_crate"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,34 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "abyssalcraft:config",
+          "option": "upgradeKits"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "category": "misc",
+        "ingredients": [
+          {
+            "item": "abyssalcraft:abyssalnite_ingot"
+          },
+          {
+            "item": "abyssalcraft:refined_coralium_ingot"
+          },
+          {
+            "item": "abyssalcraft:refined_coralium_ingot"
+          },
+          {
+            "item": "abyssalcraft:abyssalnite_upgrade_kit"
+          }
+        ],
+        "result": {
+          "item": "abyssalcraft:coralium_upgrade_kit"
+        }
+      }
+    }
+  ]
+}

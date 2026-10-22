@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "abyssalcraft:elder_engraving"
+    },
+    "%": {
+      "item": "abyssalcraft:shoggoth_flesh_dark_realm"
+    }
+  },
+  "pattern": [
+    "%#%",
+    "%%%"
+  ],
+  "result": {
+    "item": "abyssalcraft:shub_niggurath_engraving"
+  },
+  "show_notification": true
+}

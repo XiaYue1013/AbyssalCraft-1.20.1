@@ -1,0 +1,29 @@
+{
+  "values": [
+    "abyssalcraft:dreadstone",
+    "abyssalcraft:abyssalnite_stone",
+    "abyssalcraft:dreadstone_cobblestone",
+    "abyssalcraft:abyssalnite_cobblestone",
+    "abyssalcraft:dreadstone_bricks",
+    "abyssalcraft:chiseled_dreadstone_bricks",
+    "abyssalcraft:cracked_dreadstone_bricks",
+    "abyssalcraft:abyssalnite_stone_bricks",
+    "abyssalcraft:chiseled_abyssalnite_stone_bricks",
+    "abyssalcraft:cracked_abyssalnite_stone_bricks",
+    "abyssalcraft:dreadstone_brick_slab",
+    "abyssalcraft:dreadstone_cobblestone_slab",
+    "abyssalcraft:abyssalnite_stone_brick_slab",
+    "abyssalcraft:abyssalnite_cobblestone_slab",
+    "abyssalcraft:dreadstone_brick_stairs",
+    "abyssalcraft:dreadstone_cobblestone_stairs",
+    "abyssalcraft:abyssalnite_stone_brick_stairs",
+    "abyssalcraft:abyssalnite_cobblestone_stairs",
+    "abyssalcraft:dreadstone_cobblestone_wall",
+    "abyssalcraft:abyssalnite_cobblestone_wall",
+    "abyssalcraft:dreadstone_brick_fence",
+    "abyssalcraft:abyssalnite_stone_brick_fence",
+    "abyssalcraft:dreaded_abyssalnite_ore",
+    "abyssalcraft:dreadlands_abyssalnite_ore",
+    "abyssalcraft:liquified_coralium_ore"
+  ]
+}

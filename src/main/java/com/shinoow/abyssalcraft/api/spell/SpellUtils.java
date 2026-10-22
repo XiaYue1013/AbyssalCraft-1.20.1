@@ -1,0 +1,166 @@
+/*******************************************************************************
+ * AbyssalCraft
+ * Copyright (c) 2012 - 2025 Shinoow.
+ * All rights reserved. This program and the accompanying materials
+ * are made available under the terms of the GNU Lesser Public License v3
+ * which accompanies this distribution, and is available at
+ * http://www.gnu.org/licenses/lgpl-3.0.txt
+ *
+ * Contributors:
+ *     Shinoow -  implementation
+ ******************************************************************************/
+package com.shinoow.abyssalcraft.api.spell;
+
+import com.shinoow.abyssalcraft.api.energy.IEnergyContainerItem;
+import com.shinoow.abyssalcraft.api.spell.SpellEnum.ScrollType;
+import javax.annotation.Nullable;
+import net.minecraft.core.particles.ParticleTypes;
+import net.minecraft.world.InteractionHand;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.level.Level;
+
+
+public class SpellUtils {
+
+	/**
+	 * Attempts to fetch a spell from an ItemStack
+	 */
+	@Nullable
+	public static Spell getSpell(ItemStack stack){		if(!stack.hasTag())
+			return null;
+		return SpellRegistry.instance().getSpell(stack.getTag().getString("Spell"));
+	}
+
+	/**
+	 * Checks if the player has enough PE in their inventory
+	 * @param player Player whose inventory to check
+	 * @param req Target PE quanta
+	 * @return Whether or not the player has enough PE
+	 */
+	private static boolean hasEnoughPE(Player player, float req){
+		ItemStack stack = player.getOffhandItem();
+		if(stack.getItem() instanceof IEnergyContainerItem
+				&& ((IEnergyContainerItem)stack.getItem()).getContainedEnergy(stack) >= req)
+			return true;
+		else
+			for(int i = 0; i < 9; i++){
+				ItemStack stack1 = player.getInventory().getItem(i);
+				if(stack1.getItem() instanceof IEnergyContainerItem
+						&& ((IEnergyContainerItem)stack1.getItem()).getContainedEnergy(stack1) >= req)
+					return true;
+			}
+		return false;
+	}
+
+	/**
+	 * Drains PE from a players inventory
+	 * @param player Player to drain from
+	 * @param energy Amount of energy to drain
+	 */
+	private static void drainPE(Player player, float energy){
+		ItemStack stack = player.getOffhandItem();
+		if(stack.getItem() instanceof IEnergyContainerItem
+				&& ((IEnergyContainerItem)stack.getItem()).getContainedEnergy(stack) >= energy)
+			((IEnergyContainerItem)stack.getItem()).consumeEnergy(stack, energy);
+		else
+			for(int i = 0; i < 9; i++){
+				ItemStack stack1 = player.getInventory().getItem(i);
+				if(stack1.getItem() instanceof IEnergyContainerItem
+						&& ((IEnergyContainerItem)stack1.getItem()).getContainedEnergy(stack1) >= energy){
+					((IEnergyContainerItem)stack1.getItem()).consumeEnergy(stack1, energy);
+					break;
+				}
+			}
+	}
+
+	/**
+	 * Attempts to cast a charging spell
+	 * @param stack Held ItemStack
+	 * @param world Current Level
+	 * @param player Player attempting to cast the spell
+	 */
+	public static void castChargingSpell(ItemStack stack, Level world, Player player) {
+		castChargingSpell(getSpell(stack), world, player);
+	}
+
+	/**
+	 * Attempts to cast a charging spell
+	 * @param spell Spell begin cast (if present)
+	 * @param world Current Level
+	 * @param player Player attempting to cast the spell
+	 */
+	public static void castChargingSpell(@Nullable Spell spell, Level world, Player player) {
+		if(spell != null)
+			if(spell.requiresCharging() && spell.canCastSpell(world, player.blockPosition(), player)
+					&& hasEnoughPE(player, spell.getReqEnergy())){
+				spell.castSpell(world, player.blockPosition(), player);
+				drainPE(player, spell.getReqEnergy());
+			}
+	}
+
+	/**
+	 * Attempts to cast an instant spell
+	 * @param stack Held ItemStack
+	 * @param world Current Level
+	 * @param player Player attempting to cast the spell
+	 * @param hand Current hand
+	 */
+	public static void castInstantSpell(ItemStack stack, Level world, Player player, InteractionHand hand) {
+		castInstantSpell(getSpell(stack), world, player, hand);
+	}
+
+	/**
+	 * Attempts to cast an instant spell
+	 * @param spell Spell begin cast (if present)
+	 * @param scrollType Rarity of scroll casting spell
+	 * @param world Current Level
+	 * @param player Player attempting to cast the spell
+	 * @param hand Current hand
+	 */
+	public static void castInstantSpell(Spell spell, Level world, Player player, InteractionHand hand) {
+		if(spell != null)
+			if(!spell.requiresCharging()){
+				if(spell.canCastSpell(world, player.blockPosition(), player) && hasEnoughPE(player, spell.getReqEnergy())){
+					spell.castSpell(world, player.blockPosition(), player);
+					drainPE(player, spell.getReqEnergy());
+				}
+			} else{
+				player.startUsingItem(hand);
+				for(int i = 0; i < 3; i++)
+					world.addParticle(ParticleTypes.FLAME, player.getX() + (world.random.nextDouble() - 0.5D)*player.getBbWidth(), player.getY() + 1.0, player.getZ() + (world.random.nextDouble() - 0.5D)*player.getBbWidth(), 0, 0, 0);
+			}
+	}
+
+	/**
+	 * Checks if a player can hurt another player (assuming they are also a player)
+	 */
+	public static boolean canPlayerHurt(Player player, Entity target)
+	{
+		if(!(target instanceof Player)) return true;
+
+		Player player2 = (Player) target;
+
+		if(player2.isCreative() || player2.isSpectator())
+			return false;
+		return player.canHarmPlayer(player2);
+	}
+
+	/**
+	 * Attempts to fetch the color of a spell from an ItemStack
+	 * returning a fallback on failure
+	 */
+	public static int getSpellColor(ItemStack stack) {
+		Spell spell = getSpell(stack);
+		return spell != null ? spell.getColor() : 16777215;
+	}
+
+	/**
+	 * Attempts to fetch the scroll type of an ItemStack
+	 */
+	public static ScrollType getScrollType(ItemStack parchment) {
+		if(!(parchment.getItem() instanceof IScroll)) return ScrollType.NONE;
+		return ((IScroll) parchment.getItem()).getScrollType(parchment);
+	}
+}

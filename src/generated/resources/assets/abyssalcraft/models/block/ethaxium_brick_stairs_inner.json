@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "abyssalcraft:block/eb",
+    "side": "abyssalcraft:block/eb",
+    "top": "abyssalcraft:block/eb"
+  }
+}

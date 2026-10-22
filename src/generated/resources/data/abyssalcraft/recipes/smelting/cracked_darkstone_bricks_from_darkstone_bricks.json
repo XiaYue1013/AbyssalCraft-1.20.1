@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "blocks",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": {
+    "item": "abyssalcraft:darkstone_bricks"
+  },
+  "result": "abyssalcraft:cracked_darkstone_bricks"
+}

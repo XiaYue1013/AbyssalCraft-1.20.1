@@ -1,0 +1,38 @@
+{
+  "parent": "abyssalcraft:mine_dreadlands_ores",
+  "criteria": {
+    "dreadium_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "abyssalcraft:dreadium_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.abyssalcraft.dreadium.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "abyssalcraft:dreadium_ingot"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.abyssalcraft.dreadium.title"
+    }
+  },
+  "requirements": [
+    [
+      "dreadium_ingot"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

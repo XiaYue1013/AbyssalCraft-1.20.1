@@ -1,0 +1,11 @@
+{
+  "type": "abyssalcraft:abyssal_wasteland",
+  "generator": {
+    "type": "minecraft:noise",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "abyssalcraft:abyssal_wastelands"
+    },
+    "settings": "abyssalcraft:abyssal_wasteland"
+  }
+}

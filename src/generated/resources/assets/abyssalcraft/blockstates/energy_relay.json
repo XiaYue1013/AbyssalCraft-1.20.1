@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "abyssalcraft:block/energyrelay",
+      "x": 90
+    },
+    "facing=east": {
+      "model": "abyssalcraft:block/energyrelay",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "abyssalcraft:block/energyrelay"
+    },
+    "facing=south": {
+      "model": "abyssalcraft:block/energyrelay",
+      "y": 180
+    },
+    "facing=up": {
+      "model": "abyssalcraft:block/energyrelay",
+      "x": 270
+    },
+    "facing=west": {
+      "model": "abyssalcraft:block/energyrelay",
+      "y": 270
+    }
+  }
+}

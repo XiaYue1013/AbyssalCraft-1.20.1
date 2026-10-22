@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "tag": "forge:dusts/saltpeter"
+    },
+    "%": {
+      "item": "minecraft:charcoal"
+    },
+    "&": {
+      "tag": "forge:dusts/sulfur"
+    }
+  },
+  "pattern": [
+    "#&#",
+    "#%#",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "item": "minecraft:gunpowder"
+  },
+  "show_notification": true
+}

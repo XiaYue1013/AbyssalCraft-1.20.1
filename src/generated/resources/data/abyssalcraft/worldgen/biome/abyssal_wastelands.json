@@ -1,0 +1,113 @@
+{
+  "carvers": {
+    "air": [
+      "abyssalcraft:cave",
+      "abyssalcraft:canyon"
+    ]
+  },
+  "downfall": 0.5,
+  "effects": {
+    "fog_color": 12638463,
+    "foliage_color": 4485929,
+    "grass_color": 4485929,
+    "mood_sound": {
+      "block_search_extent": 8,
+      "offset": 2.0,
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000
+    },
+    "sky_color": 0,
+    "water_color": 2424707,
+    "water_fog_color": 329011
+  },
+  "features": [
+    [
+      "abyssalcraft:dimension_floor"
+    ],
+    [
+      "abyssalcraft:coralium_lake",
+      "abyssalcraft:abyssal_stone_lake"
+    ],
+    [],
+    [],
+    [
+      "abyssalcraft:chains",
+      "abyssalcraft:abyssal_ruin"
+    ],
+    [],
+    [
+      "abyssalcraft:ore_liquified_coralium",
+      "abyssalcraft:ore_abyssal_coralium",
+      "abyssalcraft:ore_abyssal_nitre",
+      "abyssalcraft:ore_abyssal_iron",
+      "abyssalcraft:ore_abyssal_copper",
+      "abyssalcraft:ore_abyssal_tin",
+      "abyssalcraft:ore_abyssal_gold",
+      "abyssalcraft:ore_abyssal_diamond",
+      "abyssalcraft:ore_pearlescent_coralium"
+    ],
+    [],
+    [],
+    [
+      "abyssalcraft:patch_luminous_thistle",
+      "abyssalcraft:patch_wastelands_thorn"
+    ]
+  ],
+  "has_precipitation": false,
+  "spawn_costs": {},
+  "spawners": {
+    "ambient": [],
+    "axolotls": [],
+    "creature": [],
+    "misc": [],
+    "monster": [
+      {
+        "type": "minecraft:zombie",
+        "maxCount": 5,
+        "minCount": 1,
+        "weight": 50
+      },
+      {
+        "type": "minecraft:skeleton",
+        "maxCount": 5,
+        "minCount": 1,
+        "weight": 50
+      },
+      {
+        "type": "abyssalcraft:depths_ghoul",
+        "maxCount": 5,
+        "minCount": 1,
+        "weight": 60
+      },
+      {
+        "type": "abyssalcraft:abyssal_zombie",
+        "maxCount": 5,
+        "minCount": 1,
+        "weight": 60
+      },
+      {
+        "type": "abyssalcraft:lesser_shoggoth",
+        "maxCount": 1,
+        "minCount": 1,
+        "weight": 3
+      },
+      {
+        "type": "abyssalcraft:skeleton_goliath",
+        "maxCount": 1,
+        "minCount": 1,
+        "weight": 15
+      }
+    ],
+    "underground_water_creature": [],
+    "water_ambient": [],
+    "water_creature": [
+      {
+        "type": "abyssalcraft:coralium_squid",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 10
+      }
+    ]
+  },
+  "temperature": 0.5
+}

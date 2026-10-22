@@ -1,0 +1,6 @@
+{
+  "type": "abyssalcraft:jzahar_temple",
+  "biomes": "#abyssalcraft:has_structure/omothol",
+  "spawn_overrides": {},
+  "step": "surface_structures"
+}

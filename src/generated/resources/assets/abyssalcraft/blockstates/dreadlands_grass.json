@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "snowy=false": {
+      "model": "abyssalcraft:block/dreadlands_grass"
+    },
+    "snowy=true": {
+      "model": "abyssalcraft:block/dreadlands_grass_snowy"
+    }
+  }
+}

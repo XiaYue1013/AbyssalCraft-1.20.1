@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "abyssalcraft:dreadium_ingot"
+    },
+    "%": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "pattern": [
+    "#",
+    "#",
+    "%"
+  ],
+  "result": {
+    "item": "abyssalcraft:dreadium_sword"
+  },
+  "show_notification": true
+}

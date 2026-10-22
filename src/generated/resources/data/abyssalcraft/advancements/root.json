@@ -1,0 +1,38 @@
+{
+  "criteria": {
+    "necronomicon": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "abyssalcraft:necronomicon"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": "abyssalcraft:textures/block/ds.png",
+    "description": {
+      "translate": "advancements.abyssalcraft.necro.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "abyssalcraft:necronomicon"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.abyssalcraft.necro.title"
+    }
+  },
+  "requirements": [
+    [
+      "necronomicon"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

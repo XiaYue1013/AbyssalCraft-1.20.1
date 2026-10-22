@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "abyssalcraft:aluminium_crystal"
+    },
+    "%": {
+      "item": "abyssalcraft:oxygen_crystal"
+    }
+  },
+  "pattern": [
+    " # ",
+    "%%%",
+    " # "
+  ],
+  "result": {
+    "item": "abyssalcraft:alumina_crystal"
+  },
+  "show_notification": true
+}

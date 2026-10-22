@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "abyssalcraft:oxygen_crystal"
+    },
+    "%": {
+      "item": "abyssalcraft:silicon_crystal"
+    }
+  },
+  "pattern": [
+    "#%#"
+  ],
+  "result": {
+    "item": "abyssalcraft:silica_crystal"
+  },
+  "show_notification": true
+}

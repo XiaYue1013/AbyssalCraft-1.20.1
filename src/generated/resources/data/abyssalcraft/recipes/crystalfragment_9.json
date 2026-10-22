@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "abyssalcraft:nitrogen_crystal_fragment"
+    },
+    "%": {
+      "item": "abyssalcraft:oxygen_crystal_fragment"
+    }
+  },
+  "pattern": [
+    " # ",
+    "%%%"
+  ],
+  "result": {
+    "item": "abyssalcraft:nitrate_crystal_fragment"
+  },
+  "show_notification": true
+}

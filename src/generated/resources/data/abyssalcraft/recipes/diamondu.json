@@ -1,0 +1,34 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "abyssalcraft:config",
+          "option": "upgradeKits"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "category": "misc",
+        "ingredients": [
+          {
+            "item": "minecraft:gold_ingot"
+          },
+          {
+            "item": "minecraft:diamond"
+          },
+          {
+            "item": "minecraft:diamond"
+          },
+          {
+            "item": "abyssalcraft:gold_upgrade_kit"
+          }
+        ],
+        "result": {
+          "item": "abyssalcraft:diamond_upgrade_kit"
+        }
+      }
+    }
+  ]
+}

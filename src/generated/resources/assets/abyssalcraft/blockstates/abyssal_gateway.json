@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "abyssalcraft:block/abyssal_gateway_ns"
+    },
+    "axis=z": {
+      "model": "abyssalcraft:block/abyssal_gateway_ew"
+    }
+  }
+}

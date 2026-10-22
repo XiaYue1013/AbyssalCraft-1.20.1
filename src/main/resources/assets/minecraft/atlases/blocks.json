@@ -1,0 +1,25 @@
+{
+  "sources": [
+    {
+      "type": "directory",
+      "source": "model/blocks",
+      "prefix": "model/blocks/"
+    },
+    {
+      "type": "single",
+      "resource": "abyssalcraft:model/cudgel"
+    },
+    {
+      "type": "single",
+      "resource": "abyssalcraft:model/katana"
+    },
+    {
+      "type": "single",
+      "resource": "abyssalcraft:model/staff"
+    },
+    {
+      "type": "single",
+      "resource": "abyssalcraft:model/staff2"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "type": "abyssalcraft:omothol",
+  "generator": {
+    "type": "minecraft:noise",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "abyssalcraft:omothol"
+    },
+    "settings": "abyssalcraft:omothol"
+  }
+}

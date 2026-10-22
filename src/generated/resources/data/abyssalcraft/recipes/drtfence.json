@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "abyssalcraft:dreadlands_planks"
+    },
+    "%": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "pattern": [
+    "#%#",
+    "#%#"
+  ],
+  "result": {
+    "count": 3,
+    "item": "abyssalcraft:dreadlands_wood_fence"
+  },
+  "show_notification": true
+}

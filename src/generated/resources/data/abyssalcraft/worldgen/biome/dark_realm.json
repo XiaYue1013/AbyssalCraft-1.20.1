@@ -1,0 +1,62 @@
+{
+  "carvers": {
+    "air": [
+      "abyssalcraft:cave",
+      "abyssalcraft:canyon"
+    ]
+  },
+  "downfall": 0.5,
+  "effects": {
+    "fog_color": 12638463,
+    "foliage_color": 1521500,
+    "grass_color": 1521500,
+    "mood_sound": {
+      "block_search_extent": 8,
+      "offset": 2.0,
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000
+    },
+    "sky_color": 0,
+    "water_color": 14745518,
+    "water_fog_color": 329011
+  },
+  "features": [],
+  "has_precipitation": false,
+  "spawn_costs": {},
+  "spawners": {
+    "ambient": [],
+    "axolotls": [],
+    "creature": [],
+    "misc": [],
+    "monster": [
+      {
+        "type": "abyssalcraft:lesser_shoggoth",
+        "maxCount": 1,
+        "minCount": 1,
+        "weight": 3
+      },
+      {
+        "type": "abyssalcraft:shadow_creature",
+        "maxCount": 5,
+        "minCount": 1,
+        "weight": 60
+      },
+      {
+        "type": "abyssalcraft:shadow_monster",
+        "maxCount": 3,
+        "minCount": 1,
+        "weight": 40
+      },
+      {
+        "type": "abyssalcraft:shadow_beast",
+        "maxCount": 1,
+        "minCount": 1,
+        "weight": 10
+      }
+    ],
+    "underground_water_creature": [],
+    "water_ambient": [],
+    "water_creature": []
+  },
+  "temperature": 0.5
+}

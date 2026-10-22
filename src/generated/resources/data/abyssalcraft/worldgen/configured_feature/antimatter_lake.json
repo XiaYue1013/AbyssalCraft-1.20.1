@@ -1,0 +1,11 @@
+{
+  "type": "abyssalcraft:lake",
+  "config": {
+    "fill": {
+      "Name": "abyssalcraft:liquid_antimatter",
+      "Properties": {
+        "level": "0"
+      }
+    }
+  }
+}

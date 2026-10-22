@@ -1,0 +1,31 @@
+{
+  "feature": "abyssalcraft:ore_abyssal_iron",
+  "placement": [
+    {
+      "type": "abyssalcraft:config",
+      "option": "abyssalIronOre"
+    },
+    {
+      "type": "minecraft:count",
+      "count": 8
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "max_inclusive": {
+          "absolute": 64
+        },
+        "min_inclusive": {
+          "absolute": 5
+        }
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

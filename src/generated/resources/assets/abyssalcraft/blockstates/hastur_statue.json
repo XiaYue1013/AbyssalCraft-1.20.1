@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "abyssalcraft:block/hasturstatue",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "abyssalcraft:block/hasturstatue"
+    },
+    "facing=south": {
+      "model": "abyssalcraft:block/hasturstatue",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "abyssalcraft:block/hasturstatue",
+      "y": 270
+    }
+  }
+}

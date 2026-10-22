@@ -1,0 +1,139 @@
+{
+  "carvers": {
+    "air": [
+      "abyssalcraft:dreadlands_cave",
+      "abyssalcraft:dreadlands_canyon",
+      "abyssalcraft:dreadlands_nether_cave"
+    ]
+  },
+  "downfall": 0.5,
+  "effects": {
+    "fog_color": 12638463,
+    "foliage_color": 9502720,
+    "grass_color": 9502720,
+    "mood_sound": {
+      "block_search_extent": 8,
+      "offset": 2.0,
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000
+    },
+    "sky_color": 0,
+    "water_color": 4159204,
+    "water_fog_color": 329011
+  },
+  "features": [
+    [
+      "abyssalcraft:dimension_floor"
+    ],
+    [],
+    [],
+    [],
+    [
+      "abyssalcraft:dreadlands_stalagmite"
+    ],
+    [],
+    [
+      "abyssalcraft:ore_dreaded_abyssalnite",
+      "abyssalcraft:abyssalnite_stone_dreadlands"
+    ]
+  ],
+  "has_precipitation": false,
+  "spawn_costs": {},
+  "spawners": {
+    "ambient": [],
+    "axolotls": [],
+    "creature": [
+      {
+        "type": "abyssalcraft:abyssalnite_golem",
+        "maxCount": 3,
+        "minCount": 1,
+        "weight": 60
+      }
+    ],
+    "misc": [],
+    "monster": [
+      {
+        "type": "abyssalcraft:lesser_shoggoth",
+        "maxCount": 1,
+        "minCount": 1,
+        "weight": 3
+      },
+      {
+        "type": "abyssalcraft:dreaded_abyssalnite_golem",
+        "maxCount": 3,
+        "minCount": 1,
+        "weight": 60
+      },
+      {
+        "type": "abyssalcraft:dread_spawn",
+        "maxCount": 2,
+        "minCount": 1,
+        "weight": 30
+      },
+      {
+        "type": "abyssalcraft:dreadling",
+        "maxCount": 2,
+        "minCount": 1,
+        "weight": 40
+      },
+      {
+        "type": "abyssalcraft:fist_of_chagaroth",
+        "maxCount": 1,
+        "minCount": 1,
+        "weight": 2
+      },
+      {
+        "type": "abyssalcraft:demon_pig",
+        "maxCount": 2,
+        "minCount": 1,
+        "weight": 5
+      },
+      {
+        "type": "abyssalcraft:demon_cow",
+        "maxCount": 2,
+        "minCount": 1,
+        "weight": 5
+      },
+      {
+        "type": "abyssalcraft:demon_chicken",
+        "maxCount": 2,
+        "minCount": 1,
+        "weight": 5
+      },
+      {
+        "type": "abyssalcraft:demon_sheep",
+        "maxCount": 2,
+        "minCount": 1,
+        "weight": 5
+      },
+      {
+        "type": "abyssalcraft:greater_dread_spawn",
+        "maxCount": 1,
+        "minCount": 1,
+        "weight": 5
+      },
+      {
+        "type": "abyssalcraft:dreadguard",
+        "maxCount": 1,
+        "minCount": 1,
+        "weight": 8
+      },
+      {
+        "type": "abyssalcraft:lesser_dreadbeast",
+        "maxCount": 1,
+        "minCount": 1,
+        "weight": 1
+      },
+      {
+        "type": "abyssalcraft:dreaded_abyssalnite_golem",
+        "maxCount": 5,
+        "minCount": 1,
+        "weight": 100
+      }
+    ],
+    "underground_water_creature": [],
+    "water_ambient": [],
+    "water_creature": []
+  },
+  "temperature": 0.5
+}

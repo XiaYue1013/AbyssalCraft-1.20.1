@@ -1,0 +1,34 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "abyssalcraft:config",
+          "option": "upgradeKits"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "category": "misc",
+        "ingredients": [
+          {
+            "item": "abyssalcraft:dreadium_ingot"
+          },
+          {
+            "item": "abyssalcraft:ethaxium_ingot"
+          },
+          {
+            "item": "abyssalcraft:ethaxium_ingot"
+          },
+          {
+            "item": "abyssalcraft:dreadium_upgrade_kit"
+          }
+        ],
+        "result": {
+          "item": "abyssalcraft:ethaxium_upgrade_kit"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "abyssalcraft:oblivion_deathbomb"
+    }
+  ],
+  "result": {
+    "item": "abyssalcraft:sacthoth_spawn_egg"
+  }
+}

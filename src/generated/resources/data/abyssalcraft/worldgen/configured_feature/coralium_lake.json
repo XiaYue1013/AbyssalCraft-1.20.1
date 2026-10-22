@@ -1,0 +1,12 @@
+{
+  "type": "abyssalcraft:lake",
+  "config": {
+    "coralium_rim": true,
+    "fill": {
+      "Name": "abyssalcraft:liquid_coralium",
+      "Properties": {
+        "level": "0"
+      }
+    }
+  }
+}

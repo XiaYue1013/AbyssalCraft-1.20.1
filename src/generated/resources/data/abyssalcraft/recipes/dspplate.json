@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "abyssalcraft:darkstone"
+    }
+  },
+  "pattern": [
+    "##"
+  ],
+  "result": {
+    "item": "abyssalcraft:darkstone_pressure_plate"
+  },
+  "show_notification": true
+}

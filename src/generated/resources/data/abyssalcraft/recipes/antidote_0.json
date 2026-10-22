@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "type": "forge:nbt",
+      "count": 1,
+      "item": "minecraft:potion",
+      "nbt": "{Potion:\"minecraft:water\"}"
+    },
+    {
+      "item": "abyssalcraft:wastelands_thorn"
+    },
+    {
+      "item": "abyssalcraft:anti_plagued_flesh"
+    },
+    {
+      "item": "abyssalcraft:shoggoth_flesh_abyssal_wasteland"
+    }
+  ],
+  "result": {
+    "item": "abyssalcraft:coralium_antidote"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:string"
+    },
+    "%": {
+      "item": "minecraft:leather"
+    },
+    "&": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "pattern": [
+    "#%#",
+    "%&%",
+    "%%%"
+  ],
+  "result": {
+    "item": "abyssalcraft:small_crystal_bag"
+  },
+  "show_notification": true
+}

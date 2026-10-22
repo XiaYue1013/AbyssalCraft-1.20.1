@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "abyssalcraft:block/omothol_energy_relay",
+      "x": 90
+    },
+    "facing=east": {
+      "model": "abyssalcraft:block/omothol_energy_relay",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "abyssalcraft:block/omothol_energy_relay"
+    },
+    "facing=south": {
+      "model": "abyssalcraft:block/omothol_energy_relay",
+      "y": 180
+    },
+    "facing=up": {
+      "model": "abyssalcraft:block/omothol_energy_relay",
+      "x": 270
+    },
+    "facing=west": {
+      "model": "abyssalcraft:block/omothol_energy_relay",
+      "y": 270
+    }
+  }
+}

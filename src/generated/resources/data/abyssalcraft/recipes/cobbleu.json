@@ -1,0 +1,38 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "abyssalcraft:config",
+          "option": "upgradeKits"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "category": "misc",
+        "ingredients": [
+          {
+            "tag": "minecraft:planks"
+          },
+          {
+            "item": "minecraft:cobblestone"
+          },
+          {
+            "item": "minecraft:cobblestone"
+          },
+          {
+            "item": "minecraft:string"
+          },
+          {
+            "item": "minecraft:flint"
+          }
+        ],
+        "result": {
+          "count": 4,
+          "item": "abyssalcraft:cobblestone_upgrade_kit"
+        }
+      }
+    }
+  ]
+}

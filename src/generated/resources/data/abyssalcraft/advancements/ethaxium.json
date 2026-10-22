@@ -1,0 +1,38 @@
+{
+  "parent": "abyssalcraft:dreadium",
+  "criteria": {
+    "ethaxium_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "abyssalcraft:ethaxium_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.abyssalcraft.ethaxium.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "abyssalcraft:ethaxium_ingot"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.abyssalcraft.ethaxium.title"
+    }
+  },
+  "requirements": [
+    [
+      "ethaxium_ingot"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

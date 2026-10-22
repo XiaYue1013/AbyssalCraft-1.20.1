@@ -1,0 +1,27 @@
+{
+  "values": [
+    "#minecraft:overworld_carver_replaceables",
+    "abyssalcraft:darkstone",
+    "abyssalcraft:abyssal_stone",
+    "abyssalcraft:dreadstone",
+    "abyssalcraft:abyssalnite_stone",
+    "abyssalcraft:coralium_stone",
+    "abyssalcraft:omothol_stone",
+    "abyssalcraft:monolith_stone",
+    "abyssalcraft:abyssal_sand",
+    "abyssalcraft:fused_abyssal_sand",
+    "abyssalcraft:dreadlands_dirt",
+    "abyssalcraft:dreadlands_grass",
+    "abyssalcraft:liquified_coralium_ore",
+    "abyssalcraft:abyssal_coralium_ore",
+    "abyssalcraft:abyssal_nitre_ore",
+    "abyssalcraft:abyssal_iron_ore",
+    "abyssalcraft:abyssal_gold_ore",
+    "abyssalcraft:abyssal_diamond_ore",
+    "abyssalcraft:abyssal_tin_ore",
+    "abyssalcraft:abyssal_copper_ore",
+    "abyssalcraft:pearlescent_coralium_ore",
+    "abyssalcraft:dreaded_abyssalnite_ore",
+    "abyssalcraft:dreadlands_abyssalnite_ore"
+  ]
+}

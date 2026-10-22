@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "abyssalcraft:block/drsb",
+    "side": "abyssalcraft:block/drsb",
+    "top": "abyssalcraft:block/drsb"
+  }
+}

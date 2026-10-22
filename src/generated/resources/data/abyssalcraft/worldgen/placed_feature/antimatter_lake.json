@@ -1,0 +1,31 @@
+{
+  "feature": "abyssalcraft:antimatter_lake",
+  "placement": [
+    {
+      "type": "abyssalcraft:config",
+      "option": "liquidAntimatterLakes"
+    },
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 10
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "max_inclusive": {
+          "absolute": 59
+        },
+        "min_inclusive": {
+          "absolute": 0
+        }
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

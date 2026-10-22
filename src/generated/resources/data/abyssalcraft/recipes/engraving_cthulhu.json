@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "abyssalcraft:elder_engraving"
+    },
+    "%": {
+      "item": "abyssalcraft:shoggoth_flesh_overworld"
+    }
+  },
+  "pattern": [
+    "%#%",
+    "%%%"
+  ],
+  "result": {
+    "item": "abyssalcraft:cthulhu_engraving"
+  },
+  "show_notification": true
+}

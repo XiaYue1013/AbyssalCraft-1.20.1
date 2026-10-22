@@ -1,0 +1,7 @@
+{
+  "type": "abyssalcraft:omothol",
+  "biomes": "#abyssalcraft:has_structure/omothol",
+  "kind": "temple",
+  "spawn_overrides": {},
+  "step": "surface_structures"
+}

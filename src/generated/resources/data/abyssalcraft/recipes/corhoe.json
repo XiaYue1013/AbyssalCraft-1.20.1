@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "abyssalcraft:refined_coralium_ingot"
+    },
+    "%": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "pattern": [
+    "##",
+    " %",
+    " %"
+  ],
+  "result": {
+    "item": "abyssalcraft:refined_coralium_hoe"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,28 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "abyssalcraft:config",
+          "option": "foodstuffs"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "category": "misc",
+        "ingredients": [
+          {
+            "item": "abyssalcraft:iron_plate"
+          },
+          {
+            "item": "abyssalcraft:fried_egg"
+          }
+        ],
+        "result": {
+          "item": "abyssalcraft:fried_egg_on_a_plate"
+        }
+      }
+    }
+  ]
+}

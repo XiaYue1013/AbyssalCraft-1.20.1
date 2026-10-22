@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "abyssalcraft:skin_of_the_abyssal_wasteland"
+    },
+    "%": {
+      "item": "abyssalcraft:small_crystal_bag"
+    }
+  },
+  "pattern": [
+    "###",
+    "#%#",
+    "###"
+  ],
+  "result": {
+    "item": "abyssalcraft:medium_crystal_bag"
+  },
+  "show_notification": true
+}

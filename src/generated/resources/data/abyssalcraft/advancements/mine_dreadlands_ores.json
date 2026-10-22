@@ -1,0 +1,51 @@
+{
+  "parent": "abyssalcraft:mine_abyssal_ores",
+  "criteria": {
+    "dreaded_abyssalnite_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "abyssalcraft:dreaded_abyssalnite_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "dreadlands_abyssalnite_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "abyssalcraft:dreadlands_abyssalnite_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.abyssalcraft.minedread.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "abyssalcraft:dreaded_abyssalnite_ore"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.abyssalcraft.minedread.title"
+    }
+  },
+  "requirements": [
+    [
+      "dreadlands_abyssalnite_ore",
+      "dreaded_abyssalnite_ore"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,43 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="LGPL-3.0 (code); assets All Rights Reserved by Shinoow"
+issueTrackerURL="https://github.com/Shinoow/AbyssalCraft/issues"
+
+[[mods]]
+modId="${mod_id}"
+version="${mod_version}"
+displayName="${mod_name}"
+authors="Shinoow (original author); Forge 1.20.1 port contributors"
+credits="Original mod by Shinoow. Port of the 1.12.2 1.11.3 release to Forge 1.20.1."
+description='''
+Unofficial Forge 1.20.1 port of AbyssalCraft 1.11.3: the Abyssal Wasteland, Dreadlands, Omothol and the Dark Realm,
+the Necronomicon, Potential Energy, rituals and the Great Old Ones' bosses.
+'''
+
+[[dependencies.${mod_id}]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47.4,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="terrablender"
+    mandatory=false
+    versionRange="[3.0.1,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="jei"
+    mandatory=false
+    versionRange="[15.2,)"
+    ordering="NONE"
+    side="BOTH"

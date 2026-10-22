@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "ingredient": {
+    "item": "abyssalcraft:abyssal_tin_ore"
+  },
+  "result": "abyssalcraft:tin_ingot"
+}

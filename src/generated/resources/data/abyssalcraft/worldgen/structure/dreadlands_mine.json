@@ -1,0 +1,6 @@
+{
+  "type": "abyssalcraft:dreadlands_mine",
+  "biomes": "#abyssalcraft:has_structure/dreadlands_mine",
+  "spawn_overrides": {},
+  "step": "underground_structures"
+}

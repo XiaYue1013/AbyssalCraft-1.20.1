@@ -1,0 +1,6 @@
+{
+  "type": "abyssalcraft:shoggoth_lair",
+  "biomes": "#abyssalcraft:has_structure/shoggoth_lair",
+  "spawn_overrides": {},
+  "step": "surface_structures"
+}

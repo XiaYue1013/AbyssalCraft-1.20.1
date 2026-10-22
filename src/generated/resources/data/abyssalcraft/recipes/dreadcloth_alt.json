@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "abyssalcraft:dread_fragment"
+    },
+    "%": {
+      "item": "minecraft:string"
+    },
+    "&": {
+      "item": "minecraft:leather"
+    }
+  },
+  "pattern": [
+    "#%#",
+    "%&%",
+    "#%#"
+  ],
+  "result": {
+    "item": "abyssalcraft:dread_cloth"
+  },
+  "show_notification": true
+}

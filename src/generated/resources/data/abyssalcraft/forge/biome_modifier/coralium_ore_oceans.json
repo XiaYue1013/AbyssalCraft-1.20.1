@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#abyssalcraft:coralium_ore_oceans",
+  "features": "abyssalcraft:ore_coralium_oceans",
+  "step": "underground_ores"
+}

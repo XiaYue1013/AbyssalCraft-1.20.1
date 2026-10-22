@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "abyssalcraft:coralium_brick"
+    },
+    "$": {
+      "item": "abyssalcraft:liquid_coralium_bucket"
+    },
+    "%": {
+      "item": "abyssalcraft:transmutation_gem"
+    },
+    "&": {
+      "item": "abyssalcraft:refined_coralium_block"
+    }
+  },
+  "pattern": [
+    "###",
+    "#%#",
+    "&$&"
+  ],
+  "result": {
+    "item": "abyssalcraft:transmutator"
+  },
+  "show_notification": true
+}

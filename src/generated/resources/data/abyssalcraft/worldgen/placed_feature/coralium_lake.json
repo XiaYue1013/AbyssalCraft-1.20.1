@@ -1,0 +1,31 @@
+{
+  "feature": "abyssalcraft:coralium_lake",
+  "placement": [
+    {
+      "type": "abyssalcraft:config",
+      "option": "liquidCoraliumLakes"
+    },
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 6
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "max_inclusive": {
+          "absolute": 127
+        },
+        "min_inclusive": {
+          "absolute": 0
+        }
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

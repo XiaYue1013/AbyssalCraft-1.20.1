@@ -1,0 +1,12 @@
+{
+  "type": "abyssalcraft:config_spawns",
+  "biomes": "#abyssalcraft:evil_animal_spawns",
+  "option": "always",
+  "spawn": {
+    "type": "abyssalcraft:evil_cow",
+    "maxCount": 3,
+    "minCount": 1,
+    "weight": 15
+  },
+  "weight_option": "evilAnimalSpawnWeight"
+}

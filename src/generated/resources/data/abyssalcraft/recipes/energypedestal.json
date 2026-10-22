@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "abyssalcraft:monolith_stone"
+    },
+    "%": {
+      "item": "abyssalcraft:coralium_pearl"
+    },
+    "&": {
+      "item": "abyssalcraft:shadow_gem"
+    }
+  },
+  "pattern": [
+    "#%#",
+    "#&#",
+    "###"
+  ],
+  "result": {
+    "item": "abyssalcraft:energy_pedestal"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,11 @@
+{
+  "type": "abyssalcraft:config_spawns",
+  "biomes": "#abyssalcraft:coralium_mob_spawns",
+  "option": "abyssalZombieBiomeTagSpawning",
+  "spawn": {
+    "type": "abyssalcraft:abyssal_zombie",
+    "maxCount": 3,
+    "minCount": 1,
+    "weight": 10
+  }
+}

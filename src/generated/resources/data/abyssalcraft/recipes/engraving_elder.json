@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "abyssalcraft:blank_engraving"
+    },
+    "%": {
+      "item": "abyssalcraft:ethaxium_ingot"
+    }
+  },
+  "pattern": [
+    "#",
+    "%"
+  ],
+  "result": {
+    "item": "abyssalcraft:elder_engraving"
+  },
+  "show_notification": true
+}

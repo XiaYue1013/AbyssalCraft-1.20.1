@@ -1,0 +1,24 @@
+// 1.20.1	2026-10-20T02:46:01.475763	Tags for minecraft:worldgen/biome mod id abyssalcraft
+29e67738ef6004dbdb231770276236c4e4599585 data/abyssalcraft/tags/worldgen/biome/coralium_mob_spawns.json
+83cf9083c8e373ad4963648e526fb798bd5ddeb1 data/abyssalcraft/tags/worldgen/biome/coralium_ore_oceans.json
+cab7275f5a41ea742ef251dc7123658b345d9c74 data/abyssalcraft/tags/worldgen/biome/evil_animal_spawns.json
+05c914804fc3a792724b97b4930d18a141e1f31d data/abyssalcraft/tags/worldgen/biome/has_structure/abyssal_stronghold.json
+942361cc4b1ff35f0c0d0a1bc093686b3f2584f8 data/abyssalcraft/tags/worldgen/biome/has_structure/dreadlands_mine.json
+ac61b127715739d207171c42502f2d12b11dabf6 data/abyssalcraft/tags/worldgen/biome/has_structure/omothol.json
+a6c3a211c2a5d3d8c25bef6d964f8fc24dbb1d31 data/abyssalcraft/tags/worldgen/biome/has_structure/shoggoth_lair.json
+7d5ac4c847694522ed4c43aa0e36e39725d64bac data/abyssalcraft/tags/worldgen/biome/has_structure/shoggoth_lair_overworld.json
+17a7fd91b2ccff9e32f4f6aacdd786190035bb0b data/abyssalcraft/tags/worldgen/biome/is_darklands.json
+55bb367e60d95078364aca757d5953edeb2404ca data/abyssalcraft/tags/worldgen/biome/is_dreadlands.json
+3ced8989203d21bc00f57118a92c5095e8eb25ca data/abyssalcraft/tags/worldgen/biome/shub_offspring_dense_spawns.json
+e0eab59ac554f4eb085cd2a60bc6fa8c6c2c8635 data/abyssalcraft/tags/worldgen/biome/shub_offspring_spawns.json
+65cb32c16901b8e21af7f7bd3411452779ca9d39 data/forge/tags/worldgen/biome/is_dead.json
+d57d98d783c5ae7eb3d433a5b839bc1d5e8e99ad data/forge/tags/worldgen/biome/is_dry.json
+b95849c375e46aa88020ce9ac2707b13e6e03e5c data/forge/tags/worldgen/biome/is_mountain.json
+1a0fdad7f3454b5beb448e9e4b7b9c2b6f46580c data/forge/tags/worldgen/biome/is_plains.json
+8f10d23f2c6d83c1fae077413d13d8a070941bef data/forge/tags/worldgen/biome/is_spooky.json
+1452c739cc9236576603ea10dc17d5e042a17d2b data/forge/tags/worldgen/biome/is_swamp.json
+5097ae3e7bcf0a1e66f175d732a0d8d53fe03373 data/forge/tags/worldgen/biome/is_wasteland.json
+71faa4f7008e8aaad3e97e6875f90ec2e1ee41c3 data/minecraft/tags/worldgen/biome/is_forest.json
+5cf742d61adb6b6dddb4369dfbea1f196a6169e1 data/minecraft/tags/worldgen/biome/is_hill.json
+16115a1505b70eee6969fcb2b51cea7cbf1b578e data/minecraft/tags/worldgen/biome/is_mountain.json
+8a293dfebfdb15cc436953ad2320eb3fb6cb2078 data/minecraft/tags/worldgen/biome/is_overworld.json

@@ -1,0 +1,18 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "exclusion_zone": {
+      "chunk_count": 2,
+      "other_set": "abyssalcraft:omothol_landmarks"
+    },
+    "salt": 1873625311,
+    "separation": 1,
+    "spacing": 2
+  },
+  "structures": [
+    {
+      "structure": "abyssalcraft:omothol_building",
+      "weight": 1
+    }
+  ]
+}

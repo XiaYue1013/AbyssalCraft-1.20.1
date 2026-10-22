@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "abyssalcraft:coralium_gem_cluster_4"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "abyssalcraft:coralium_gem"
+  }
+}

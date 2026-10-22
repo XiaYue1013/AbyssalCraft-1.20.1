@@ -1,0 +1,19 @@
+{
+  "feature": "abyssalcraft:overworld_coralium_ore",
+  "placement": [
+    {
+      "type": "abyssalcraft:config",
+      "option": "coraliumOre"
+    },
+    {
+      "type": "abyssalcraft:ore_dimension"
+    },
+    {
+      "type": "abyssalcraft:coralium_ore",
+      "count_factor": 0.5
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

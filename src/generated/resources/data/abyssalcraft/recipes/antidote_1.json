@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "type": "forge:nbt",
+      "count": 1,
+      "item": "minecraft:potion",
+      "nbt": "{Potion:\"minecraft:water\"}"
+    },
+    {
+      "item": "abyssalcraft:dreadlands_sapling"
+    },
+    {
+      "item": "abyssalcraft:dread_fragment"
+    },
+    {
+      "item": "abyssalcraft:shoggoth_flesh_dreadlands"
+    }
+  ],
+  "result": {
+    "item": "abyssalcraft:dread_antidote"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "abyssalcraft:liquid_coralium_bucket"
+    },
+    "$": {
+      "item": "abyssalcraft:odb_core"
+    },
+    "%": {
+      "item": "minecraft:obsidian"
+    },
+    "&": {
+      "item": "abyssalcraft:oblivion_catalyst"
+    },
+    "@": {
+      "item": "abyssalcraft:liquid_antimatter_bucket"
+    }
+  },
+  "pattern": [
+    "#%%",
+    "&$%",
+    "@%%"
+  ],
+  "result": {
+    "item": "abyssalcraft:oblivion_deathbomb"
+  },
+  "show_notification": true
+}

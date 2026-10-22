@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "abyssalcraft:darkstone"
+    }
+  ],
+  "result": {
+    "item": "abyssalcraft:darkstone_button"
+  }
+}

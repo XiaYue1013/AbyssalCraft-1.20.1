@@ -1,0 +1,38 @@
+{
+  "parent": "abyssalcraft:mine_coralium",
+  "criteria": {
+    "shadow_gem": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "abyssalcraft:shadow_gem"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.abyssalcraft.shadowgems.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "abyssalcraft:shadow_gem"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.abyssalcraft.shadowgems.title"
+    }
+  },
+  "requirements": [
+    [
+      "shadow_gem"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

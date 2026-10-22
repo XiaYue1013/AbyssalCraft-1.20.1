@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "abyssalcraft:blaze_crystal"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "abyssalcraft:blaze_crystal_shard"
+  }
+}

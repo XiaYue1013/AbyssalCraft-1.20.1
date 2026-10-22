@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "abyssalcraft:dreadstone_bricks"
+    },
+    "%": {
+      "item": "minecraft:furnace"
+    },
+    "&": {
+      "item": "abyssalcraft:dreadium_block"
+    }
+  },
+  "pattern": [
+    "###",
+    "&%&",
+    "###"
+  ],
+  "result": {
+    "item": "abyssalcraft:crystallizer"
+  },
+  "show_notification": true
+}
